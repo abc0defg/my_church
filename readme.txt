@@ -52,6 +52,43 @@ https://opentutorials.org/module/5752/30685
 git remote add 20221115origin https://github.com/abc0defg/my_church.git 
 
 
+rr@rrs-MacBook-Pro my_church % git add readme.txt
+
+
+rr@rrs-MacBook-Pro my_church % git commit -m "first commit"
+
+[main 1dd95cb] first commit
+
+1 file changed, 60 insertions(+)
+
+create mode 100644 readme.txt
+
+
+
+rr@rrs-MacBook-Pro my_church % git remote add origin https://github.com/abc0defg/my_church.git
+
+
+rr@rrs-MacBook-Pro my_church % git push -u origin main
+
+Enumerating objects: 6, done.
+
+Counting objects: 100% (6/6), done.
+
+Delta compression using up to 10 threads
+
+Compressing objects: 100% (4/4), done.
+
+Writing objects: 100% (6/6), 1.87 KiB | 1.87 MiB/s, done.
+
+Total 6 (delta 0), reused 0 (delta 0), pack-reused 0
+
+To https://github.com/abc0defg/my_church.git
+
+* [new branch] main -> main
+
+branch 'main' set up to track 'origin/main'.
+
+
 
 4. 구현한다. 
 
